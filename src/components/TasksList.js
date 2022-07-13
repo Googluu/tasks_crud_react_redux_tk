@@ -1,5 +1,6 @@
 import {useSelector, useDispatch} from 'react-redux';
-import {deleteTask} from '../features/tasks/taskSlice'
+import {deleteTask} from '../features/tasks/taskSlice';
+import {Link} from 'react-router-dom'
 
 function TasksList() {
   const tasks = useSelector(state => state.tasks);
@@ -11,6 +12,14 @@ function TasksList() {
 
   return (
     <div>
+
+      <header>
+        <h1>Tasks 10</h1>
+        <Link to='/create-task'>
+          Create Task
+        </Link>
+      </header>
+
       {tasks.map(task => (
         <div key={task.id}>
           <h3>{task.title}</h3>
