@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# React Redux Toolkit CRUD (Simple)
+
+This is a simple Web application CRUD (Create, Read, Update, Delete) using React and Redux Toolkit.
+
+## Installation
+
+```
+git clone https://github.com/Googluu/tasks_crud_react_redux_tk.git
+cd tasks_crud_react_redux_tk
+npm i
+npm start
+```
+
+## More Info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
